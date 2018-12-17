@@ -37,11 +37,14 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-"tsuquyomi"
+
+"A Vim plugin for TypeScript"
 Plug 'https://github.com/Quramy/tsuquyomi/'
 
+"Interactive command execution in Vim"
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 
+"Status/tabline for vim"
 Plug 'vim-airline/vim-airline'
 
 call plug#end()
